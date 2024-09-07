@@ -1,0 +1,25 @@
+fn main() {
+    let string1 = String::from("Gideon Bature");
+    let string2 = "Grace Andrew";
+
+    let result1 = longest(string1.as_str(), string2);
+    println!("The longest string is {}", result1);
+
+    // let string3 = String::from("Gideon");
+    // let result2;
+
+    // {
+    //     let string4 = String::from("Bature");
+    //     result2 = longest(string3.as_str(), string4.as_str());
+    // }
+    // println!("The longest string is {}", result2);
+
+}
+
+fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
+    if x.len() > y.len() {
+        x
+    } else {
+        y
+    }
+}
