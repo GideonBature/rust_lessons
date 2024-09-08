@@ -1,0 +1,5 @@
+My name is Gideon Bature, I am a software engineer, a graduate of African Leadership Experience.
+I love to programme and that is the reason why I had to enroll in the ALX Software Engineering programme.
+I am proficient in JavaScript, Python, TypeScript, Rust, C, Cairo, and Move.
+I am also a blockchain enthusiast.
+I love everything Tech. and never get tired of talking about Technology.
