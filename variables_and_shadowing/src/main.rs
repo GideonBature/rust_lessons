@@ -7,9 +7,9 @@ fn main() {
 
     println!("The value of x is: {}", x);
 
-    let mut y = 25;
+    let y = 25;
     println!("The value of y is: {}", y);
 
-    y = "hello";
-    println!("The value of y is: {}", y);
+    // y = "hello";
+    // println!("The value of y is: {}", y);
 }

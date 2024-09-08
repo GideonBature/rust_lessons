@@ -1,10 +1,12 @@
 #[derive(Debug)]
+#[allow(dead_code)]
 enum IpAddrKind {
-    v4,
-    v6,
+    V4,
+    V6,
 }
 
 #[derive(Debug)]
+#[allow(dead_code)]
 enum TrafficLight {
     Red,
     Yellow,
@@ -12,14 +14,15 @@ enum TrafficLight {
 }
 
 #[derive(Debug)]
+#[allow(dead_code)]
 struct Traffic {
     light: TrafficLight,
     action: String,
 }
 
 fn main() {
-    let four = IpAddrKind::v4;
-    let six = IpAddrKind::v6;
+    let four = IpAddrKind::V4;
+    let six = IpAddrKind::V6;
 
     println!("IPv4: {:?}\nIPv6: {:?}", four, six);
 

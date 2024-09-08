@@ -1,5 +1,5 @@
 // allow dead code and debug attributes
-#![allow(dead_code)]
+#[allow(dead_code)]
 #[derive(Debug)]
 enum TrafficLight {
     Red(TrafficLightAction),
@@ -8,6 +8,7 @@ enum TrafficLight {
 }
 
 #[derive(Debug)]
+#[allow(dead_code)]
 enum TrafficLightAction {
     Ready,
     Stop,
@@ -15,7 +16,7 @@ enum TrafficLightAction {
 }
 
 fn main() {
-    let light = TrafficLight::Red(TrafficLightAction::Stop);
+    let _light = TrafficLight::Red(TrafficLightAction::Stop);
     let light2 = TrafficLight::Green;
 
     if let TrafficLight::Red(action) = light2 {

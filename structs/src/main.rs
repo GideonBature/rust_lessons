@@ -1,5 +1,6 @@
 // struct of student with name, email, age and is_active
 #[derive(Debug)]
+#[allow(dead_code)]
 struct Student {
     name: String,
     email: String,
@@ -8,6 +9,7 @@ struct Student {
 }
 
 #[derive(Debug)]
+#[allow(dead_code)]
 struct RGB(u8, u8, u8);
 
 #[derive(Debug)]

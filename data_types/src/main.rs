@@ -2,7 +2,7 @@ struct Person {
     name: String,
     age: u8
 }
-
+#[allow(dead_code)]
 enum TrafficLightColor {
     Red,
     Yellow,

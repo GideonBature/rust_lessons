@@ -5,6 +5,7 @@ struct Rectangle {
 }
 
 #[derive(Debug)]
+#[allow(dead_code)]
 struct Person {
     name: String,
     age: u8

@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 fn eat_at_restaurant() {
     // Absolute path
     crate::front_of_house::hosting::add_to_waitlist();
@@ -11,6 +12,7 @@ fn eat_at_restaurant() {
 mod front_of_house {
     use crate::eat_at_restaurant;
     pub mod hosting {
+        #[allow(dead_code)]
         pub fn add_to_waitlist() {
             super::eat_at_restaurant();
             println!("Added to waitlist");

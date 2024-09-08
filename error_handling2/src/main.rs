@@ -1,5 +1,5 @@
 use::std::fs::File;
-use::std::io::ErrorKind;
+// use::std::io::ErrorKind;
 
 fn main() { 
     // let name_from_file = File::open("name.txt");

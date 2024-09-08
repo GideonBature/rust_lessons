@@ -29,8 +29,10 @@ mod restaurant {
     }
 
     mod back_of_house {
+        #[allow(dead_code)]
         fn prepare_food() {}
 
+        #[allow(dead_code)]
         fn wash_dishes() {}
     }
 }
